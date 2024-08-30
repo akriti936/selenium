@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.NewTest_firsttest"/>
+      <!--class name="testng.login1"/>
+      <class name="testng.Parallel_D"/>
+      <class name="testng.login"/>
+      <class name="testng.secondtest"/>
+      <class name="testng.parallel"/>
+      <class name="testng.grouping"/>
+      <class name="testng.Parameter"/>
+      <class name="testng.giftcard"/-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

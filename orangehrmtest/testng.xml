@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="orangehrmtest.myleavetest"/>
+      <class name="orangehrmtest.adminorganization"/>
+      <class name="orangehrmtest.admintest"/>
+      <class name="orangehrmtest.jobtest"/>
+      <class name="orangehrmtest.maintainance"/>
+      <class name="orangehrmtest.adminskills"/>
+      <class name="orangehrmtest.PIMEmployeeList"/>
+      <class name="orangehrmtest.PIMReports"/>
+      <class name="orangehrmtest.PIMConfigurations"/>
+      <class name="orangehrmtest.Leave"/>
+      <class name="orangehrmtest.adminnationality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
